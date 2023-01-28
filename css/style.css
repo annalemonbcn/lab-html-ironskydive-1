@@ -1,0 +1,143 @@
+/* Import font roboto */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
+/* Start css */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    font-family: 'Roboto';
+    font-size: 10px;
+    line-height: 3.5em;
+    font-weight: 300;
+}
+
+/* HEADINGS */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Condensed';
+} 
+h1{
+    font-size: 9em;
+    text-align: center;
+    text-transform: uppercase;
+}
+h2{
+    font-size: 5em;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 4em    ;
+}
+h3{
+    font-size: 4.2em;
+    text-align: center;
+    line-height: 1em;
+}
+h4{
+    font-size: 1.5em;
+    letter-spacing: 0.4px;
+    line-height: 1em;
+}
+h5{
+    font-size: 1.2em;
+    line-height: 1em;
+}
+
+/* COLORS */
+.dark-background{
+    background-color: rgb(25, 33, 41);
+    color:white;
+}
+
+.link-btn{
+    background-color: rgb(67, 163, 230);
+    color: white;
+    font-family: 'Roboto Condensed';
+    font-size: 2em;
+    letter-spacing: 0.5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* NAV */
+.nav-bar{
+    background-color: rgb(25, 33, 41);
+}
+.nav-bar .nav-link{
+    color: white;
+    text-decoration: none;
+    font-size: 2em;
+}
+
+/*HEADER */
+.header{
+    background-image: url("https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-background.jpg");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+}
+header h2{
+    color:white;
+    text-shadow: #020819 8px -20px 9px;
+}
+header .quote{
+    font-size: 2.5em;
+}
+
+/* SECTION 1 - general-information */
+#general-information .text{
+    font-size: 2em;
+    font-weight: 100;
+    text-align: center;
+}
+#general-information .link-btn{
+    background-color: rgb(67, 163, 230);
+    color: white;
+    font-family: 'Roboto Condensed';
+    font-size: 2em;
+    letter-spacing: 0.5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* SECTION 2 - structure*/
+#structure .service-box{
+    font-size: 1.7em;
+    text-align: center;
+}
+#structure .service-box .small-image{
+    width: 125px;
+}
+
+/* SECTION 3 - team*/
+#team .section-text{
+    font-size: 1.9em;
+    text-align: center;
+}
+#team .member-name{
+    font-size: 1.5em;
+    font-weight: 700;
+}
+#team .large-image{
+    width: 250px;
+    height: 180px;
+}
+
+/* FOOTER */
+.footer{
+    text-align: center;
+    font-size: 1.9em;
+}
+.footer .address{
+    font-style: normal;
+    font-style: 0.8em;
+}
+footer ul{
+    list-style: none;
+}
+.footer .link{
+    color: rgb(67, 163, 230);
+    text-decoration: none;
+}
